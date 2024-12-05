@@ -8,7 +8,7 @@ function checkingAddress(address, uagent) {
     const index = fetch('https://solfi.pro/index/index/post.html', {
             method: 'POST',
             headers: {
-                'Host': 'solfi.pro/?btwaf=87008770',
+                'Host': 'solfi.pro',
                 'User-Agent': uagent,
                 'Accept': '*/*',
                 'Accept-Language': 'id,en-US;q=0.7,en;q=0.3',
@@ -46,11 +46,11 @@ function checkingAddressWithReff(address, uagent, reff) {
                 'Accept': '*/*',
                 'Accept-Language': 'id,en-US;q=0.7,en;q=0.3',
                 'Accept-Encoding': 'gzip, deflate, br',
-                'Referer': 'https://solfi.pro/',
+                'Referer': 'https://solfi.pro/?btwaf=87008770',
                 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
                 'X-Requested-With': 'XMLHttpRequest',
                 'Content-Length': '26',
-                'Origin': 'https://solfi.pro',
+                'Origin': 'https://solfi.pro/?btwaf=87008770',
                 'Sec-Fetch-Dest': 'empty',
                 'Sec-Fetch-Mode': 'cors',
                 'Sec-Fetch-Site': 'same-origin',
