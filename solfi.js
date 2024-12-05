@@ -46,7 +46,7 @@ function checkingAddressWithReff(address, uagent, reff) {
                 'Accept': '*/*',
                 'Accept-Language': 'id,en-US;q=0.7,en;q=0.3',
                 'Accept-Encoding': 'gzip, deflate, br',
-                'Referer': 'https://solfi.pro/?btwaf=87008770',
+                'Referer': 'https://solfi.pro/',
                 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
                 'X-Requested-With': 'XMLHttpRequest',
                 'Content-Length': '26',
